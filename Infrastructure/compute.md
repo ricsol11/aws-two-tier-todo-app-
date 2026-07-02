@@ -107,3 +107,31 @@ Screenshots:
 
 * 24-web-server-1-app-cloned-and-env-created.png
 * 25-web-server-2-app-cloned-and-env-created.png
+
+### Application Runtime and Reverse Proxy
+
+Both web application EC2 instances were configured to run the Node.js application using PM2 and serve traffic through Nginx as a reverse proxy.
+
+Runtime:
+- Node.js application started with PM2
+- PM2 configured to keep the application running
+- Nginx installed and enabled
+- Nginx configured as a reverse proxy from port 80 to the Node.js app on port 3000
+
+Web Server 1:
+PM2 status: Online
+Nginx status: Active
+Reverse proxy test: Successful
+
+Web Server 2:
+PM2 status: Online
+Nginx status: Active
+Reverse proxy test: Successful
+
+Screenshots:
+- 26-web-server-1 PM2-app-running.png
+- 27-web-server-1-nginx-running.png
+- 28-web-server-1-nginx-reverse-proxy-configured.png
+- 29-web-server-2-pm2-app-running.png
+- 30-web-server-2-nginx-running.png
+- 31-web-server-2-nginx-reverse-proxy-configured.png
