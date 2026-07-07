@@ -56,3 +56,17 @@ Successful
 
 Screenshot:
 17-database-schema-created.png
+
+## Final Database Verification
+
+Verification Method:
+Tasks were added through the To-Do List web application using the Application Load Balancer DNS name.
+
+Result:
+The tasks were successfully stored in the RDS MySQL database.
+
+Validation Command:
+SELECT * FROM Tasks;
+
+Screenshot:
+41-database-task-verification.png
