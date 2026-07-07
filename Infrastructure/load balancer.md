@@ -47,7 +47,7 @@ Target Health:
 Healthy
 
 Result:
-The To-Do List application is accessible through the Application Load Balancer DNS name.
+The To-Do List application is accessible through the Application Load Balancer DNS name. Tasks can be added through the web interface and are stored in the RDS MySQL database.
 
 Screenshots:
 - 32-alb-security-group-inbound.png
